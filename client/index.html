@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather-App</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<section id="container">
+    <input type="text" id="new-location" placeholder="Enter your Location">
+    <section id="container">
+        <section class="weather-data">
+            <div id="main-data">
+                <img src="http://openweathermap.org/img/w/" id="weather-icon">
+                <span id="cur-temp"></span>
+                <h3 id="city-name"></h3>
+                <p id="change-location">Change Location</p>
+            </div>
+
+            <div class="weather-data">
+                <div class="left-table">
+                    <p>Daily Forecast: <span id="today"></span></p>
+                    <p>Description: <span id="w-descript"></span></p>
+                    <p>Max temperature: <span id="max-temp"></span></p>
+                    <p>Min temperature: <span id="min-temp"></span></p>
+                </div>
+                <div class="right-table">
+                    <p>Wind Speed: <span id="wind-speed"></span></p>
+                    <p>Feels like: <span id="wind-chill"></span></p>
+                    <p>Humidity: <span id="humid"></span></p>
+                    <p>Pressure: <span id="pressure"></span></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+    </section>
+</section>
+
+<script type="text/javascript" src="js/libs/jquery.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
