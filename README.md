@@ -27,7 +27,7 @@ Example:
 2. Once inside the DIR type:
 
 ```
-  git clone enter_url.git
+  git clone https://github.com/borisKarastanev/JavaScript-Weather-App.git.git
 
 ```
 
